@@ -35,7 +35,7 @@
             })
     }
         function formaterData (biler) {
-            let ut = "<table><tr><th>PersonNr</th><th>Navn</th><th>Adresse</th>+" +
+            let ut = "<table class='table table-striped'> <tr><th>PersonNr</th><th>Navn</th><th>Adresse</th>" +
                 "<th>Kjennetegn</th><th>Merke</th><th>Type</th><th>Type</th></tr>";
             for (const bil of biler) {
                 ut += "<tr><td>" + bil.personnummer + "</td><td>" + bil.navn + "</td><td>"
