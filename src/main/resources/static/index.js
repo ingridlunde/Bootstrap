@@ -20,7 +20,7 @@
         $.post("/lagre", motorvogn, function () {
             hentAlle();
         });
-
+//
         $("#eiersPersonnummer").val("");
         $("#eiersNavn").val("");
         $("#eiersAdresse").val("");
