@@ -8,8 +8,8 @@ public class Motorvogn {
     private String bilmerke;
     private String biltype;
 
-    public Motorvogn(String personNummer, String navn, String adresse, String kjennetegn, String bilmerke, String biltype) {
-        this.personnummer = personNummer;
+    public Motorvogn(String personnummer, String navn, String adresse, String kjennetegn, String bilmerke, String biltype) {
+        this.personnummer = personnummer;
         this.navn = navn;
         this.adresse = adresse;
         this.kjennetegn = kjennetegn;
@@ -20,12 +20,12 @@ public class Motorvogn {
 
     public Motorvogn() {}
 
-    public String getPersonNummer() {
+    public String getPersonnummer() {
         return personnummer;
     }
 
-    public void setPersonNummer(String personNummer) {
-        this.personnummer = personNummer;
+    public void setPersonnummer(String personnummer) {
+        this.personnummer = personnummer;
     }
 
     public String getNavn() {
